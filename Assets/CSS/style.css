@@ -1,6 +1,16 @@
 
-
-
+/* Says that you do not want anything to be inline above or below these 
+elements so this is what you would use for the box.
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+/* The HTML would look like this:
+div (clearfix)
+    div: box main
+    div: box side 
+/div  */
 
 footer{
     background-color: #666666;
