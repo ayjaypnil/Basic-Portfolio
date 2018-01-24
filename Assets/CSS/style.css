@@ -12,6 +12,10 @@ div (clearfix)
     div: box side 
 /div  */
 
+heading{
+    border: 1px solid black;
+}
+
 footer{
     background-color: #666666;
     height: 75px;
