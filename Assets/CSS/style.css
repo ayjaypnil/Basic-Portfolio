@@ -12,8 +12,46 @@ div (clearfix)
     div: box side 
 /div  */
 
-heading{
-    border: 1px solid black;
+#nav {
+    float: left;
+    width: 960px;
+    list-style: none;
+    border: 1px solid #cccccc;
+    margin-left: 20px;
+    background: #ffffff;
+}
+
+#nav li{
+    float: left;
+}
+
+.name{
+    padding: 30px 75px;
+    border: 1px solid #cccccc;
+    margin-left: 125px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+.lineSpacer{
+    margin: 0 2px;
+}
+
+.about{
+    margin-left: 350px;
+}
+
+.about, .portfolio, .contact, .lineSpacer{
+    padding: 30px 5px;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
 }
 
 footer{
@@ -23,8 +61,8 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%
-    
+    width: 960px;
+    margin-left: 20px;
 }
 
 #footerTopBorder{
@@ -37,5 +75,5 @@ footer{
     color: white;
     font-size: 10px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
