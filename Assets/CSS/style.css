@@ -91,6 +91,8 @@ body{
 #aboutText{
     margin-left: 40px;
     margin-right: 25px;
+    color: #777777;
+    font-family:'Arial','Helvetica Neue', Helvetica,sans-serif;
 }
 
 .secondBox {
@@ -132,6 +134,25 @@ body{
 
 .form{
     margin-left: 40px;
+}
+
+.space{
+    margin-bottom: 15px;
+}
+.random{
+    height: 100px;
+    width: 500px;
+}
+
+#portfolioP{
+    margin-left: 40px;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.fontFix{
+    color: #777777;
+    font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
 }
 
 
