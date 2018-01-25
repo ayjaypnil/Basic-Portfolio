@@ -19,6 +19,8 @@ div (clearfix)
     border: 1px solid #cccccc;
     margin-left: 20px;
     background: #ffffff;
+    margin-bottom: 10px;
+    
 }
 
 #nav li{
@@ -32,7 +34,7 @@ div (clearfix)
     background: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .lineSpacer{
@@ -40,7 +42,7 @@ div (clearfix)
 }
 
 .about{
-    margin-left: 350px;
+    margin-left: 300px;
 }
 
 .about, .portfolio, .contact, .lineSpacer{
@@ -53,6 +55,85 @@ a{
     color: #777777;
     text-decoration: none;
 }
+
+body{
+    background: url("/Users/AnilJayPatel/Desktop/Files/P/BootCamp/Week 1/HW_One/Basic-Portfolio/Assets/Images/dust_scratches.png")
+}
+
+.firstBox{
+    background : #ffffff;
+    float: left;
+    margin: 5px 20px;
+    height: 400px;
+    width: 650px;
+    border: 1px solid #cccccc;
+}
+
+.aboutMe{
+    margin: 40px;
+    border-bottom: 1px solid #cccccc;
+    border-width: 2px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color:#4aaaa5;
+    padding-bottom: 15px;
+}
+
+#profilePicture{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 15px;
+    border: 1px solid #cccccc
+}
+
+#aboutText{
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.secondBox {
+    background: #ffffff;
+    float: left;
+    margin: 5px 20px;
+    height: 150px;
+    width: 270px;
+    border: 1px solid #cccccc;
+}
+
+.connectWithMe{
+    color:#4aaaa5;
+    border-bottom: 1px solid #cccccc;
+    border-width: 2px;
+    padding: 10px 10px 20px 10px;
+    margin: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+#gitHub{
+    width: 50;
+    height: 50;
+    margin-left: 30px;
+}
+
+#stackOverflow{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+
+}
+#linkedIn{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+
+.form{
+    margin-left: 40px;
+}
+
 
 footer{
     background-color: #666666;
